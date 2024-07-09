@@ -72,8 +72,10 @@ Encriptar Archivos
       Navega hasta el directorio del script.
       Ejecuta el script:
     
-      ```
-      python backup_script.py
+```
+python backup_script.py
+```
+
 Desencriptar Archivos
 
   Ejecutar el script de desencriptado:
@@ -81,8 +83,9 @@ Desencriptar Archivos
       Navega hasta el directorio del script.
       Ejecuta el script:
         
-        ```
-        python decrypt_script.py
+```
+python decrypt_script.py
+```
 
 ## ⚠️ Problemas Conocidos
 
