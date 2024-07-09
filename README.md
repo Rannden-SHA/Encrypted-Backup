@@ -77,10 +77,13 @@ Primero hay que editar el script y modificar las lineas donde están las variabl
 ```
 python backup.py
 ```
+Una vez finalizado, en el mismo directorio encontraremos los archivos encryption_key.key y file_map.json, estos los podremos guardar en otro sitio.
 
 Desencriptar Archivos
 
 Primero hay que editar el script y modificar las lineas donde están las variables bcakup_dir y decrypt_dir que se encuentran al principio del código (para indicar la ruta de la carpeta que queremos restaurar y el destino al que se creará una copia desencriptada, respectivamente)
+
+Hay que tener en cuenta que tienen que estar los archivos encrypted_key.key y file_map.json en el mismo directorio para que pueda desencriptar los archivos.
 
   Ejecutar el script de desencriptado:
       Abre el símbolo del sistema.
