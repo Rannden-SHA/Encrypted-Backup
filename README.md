@@ -36,24 +36,24 @@ Estos scripts permiten encriptar y desencriptar archivos en un directorio especi
 ## 🚀 Instalación
 
 1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/tu-repositorio.git
+   ```
+   git clone https://github.com/Rannden-SHA/Encrypted-Backup.git
 
-2. Navega al directorio del proyecto:
+3. Navega al directorio del proyecto:
 
-  ```bash
-  cd tu-repositorio
+  ```
+  cd Encrypted-Backup
   ```
 3. Instala las dependencias:
 
-  ```bash
+  ```
   pip install cryptography
   ```
 
 ## 📂 Estructura del Proyecto
 
-```markdown
-tu-repositorio/
+```
+Encrypted-Backup/
 ├── backup_script.py
 ├── decrypt_script.py
 ├── README.md
@@ -70,7 +70,7 @@ Encriptar Archivos
       Navega hasta el directorio del script.
       Ejecuta el script:
     
-      ```bash
+      ```
       python backup_script.py
 Desencriptar Archivos
 
@@ -79,7 +79,7 @@ Desencriptar Archivos
       Navega hasta el directorio del script.
       Ejecuta el script:
         
-        ```bash
+        ```
         python decrypt_script.py
 
 ## ⚠️ Problemas Conocidos
