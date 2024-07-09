@@ -3,7 +3,7 @@ Backup files with encryption
 
 # 🛡️ Script de Encriptado y Desencriptado de Archivos 🗝️
 
-Este repositorio contiene scripts en Python que permiten encriptar archivos en un directorio y sobrescribir los archivos originales con su versión encriptada. Además, incluye un script para desencriptar los archivos y restaurarlos a su estado original.
+Este repositorio contiene scripts en Python que permiten hacer un respaldo de un directorio y encriptar los archivos. Además, incluye un script para desencriptar los archivos y restaurarlos a su estado original.
 
 ## 📋 Tabla de Contenidos
 
@@ -18,12 +18,11 @@ Este repositorio contiene scripts en Python que permiten encriptar archivos en u
 
 ## 📝 Descripción
 
-Estos scripts permiten encriptar y desencriptar archivos en un directorio especificado. Los archivos encriptados sobrescriben los archivos originales, y la información necesaria para desencriptar (clave y mapeo) se guarda en un directorio separado. Esto es útil para asegurar la confidencialidad de los datos almacenados.
+Estos scripts permiten encriptar y desencriptar archivos en un directorio especificado. La información necesaria para desencriptar (clave y mapeo) se guarda en un directorio separado. Esto es útil para asegurar la confidencialidad de los datos almacenados.
 
 ## ✨ Características
 
 - **Encriptación**: Encripta archivos usando el algoritmo Fernet.
-- **Sobrescritura**: Los archivos encriptados sobrescriben los archivos originales.
 - **Desencriptación**: Restaura los archivos encriptados a su estado original.
 - **Mapeo**: Mantiene un mapeo de los archivos encriptados para asegurar la correcta restauración.
 - **Manejo de Errores**: Verifica permisos y maneja excepciones durante el proceso.
@@ -36,19 +35,22 @@ Estos scripts permiten encriptar y desencriptar archivos en un directorio especi
 ## 🚀 Instalación
 
 1. Clona el repositorio:
-   ```
-   git clone https://github.com/Rannden-SHA/Encrypted-Backup.git
+
+```
+git clone https://github.com/Rannden-SHA/Encrypted-Backup.git
+```
 
 3. Navega al directorio del proyecto:
 
-  ```
-  cd Encrypted-Backup
-  ```
+```
+cd Encrypted-Backup
+```
+
 3. Instala las dependencias:
 
-  ```
-  pip install cryptography
-  ```
+```
+pip install cryptography
+```
 
 ## 📂 Estructura del Proyecto
 
@@ -84,7 +86,7 @@ Desencriptar Archivos
 
 ## ⚠️ Problemas Conocidos
 
-  Permisos: Si el script no puede sobrescribir un archivo, asegúrate de tener los permisos necesarios para modificar los archivos en el directorio de origen.
+  Permisos: Si el script no puede sobrescribir un archivo, asegúrate de tener los permisos necesarios para copiar los archivos en el directorio de origen.
   Interrupciones: Si el script se interrumpe, los mapeos y la clave se mantendrán actualizados, permitiendo reanudar la operación en el punto donde se detuvo.
 
 ## 🤝 Contribución
