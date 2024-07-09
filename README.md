@@ -56,8 +56,8 @@ pip install cryptography
 
 ```
 Encrypted-Backup/
-├── backup_script.py
-├── decrypt_script.py
+├── backup.py
+├── restore.py
 ├── README.md
 └── mapeo/
     ├── encryption_key.key
@@ -73,7 +73,7 @@ Encriptar Archivos
       Ejecuta el script:
     
 ```
-python backup_script.py
+python backup.py
 ```
 
 Desencriptar Archivos
@@ -84,7 +84,7 @@ Desencriptar Archivos
       Ejecuta el script:
         
 ```
-python decrypt_script.py
+python restore.py
 ```
 
 ## ⚠️ Problemas Conocidos
