@@ -67,6 +67,8 @@ Encrypted-Backup/
 ## 🛠️ Uso
 Encriptar Archivos
 
+Primero hay que editar el script y modificar las lineas donde están las variables source_dir y backup_dir que se encuentran al principio del código (para indicar la ruta de la carpeta que queremos hacer el backup y el destino al que se creará una copia encriptada, respectivamente)
+
   Ejecutar el script de encriptado:
       Abre el símbolo del sistema como administrador.
       Navega hasta el directorio del script.
@@ -77,6 +79,8 @@ python backup.py
 ```
 
 Desencriptar Archivos
+
+Primero hay que editar el script y modificar las lineas donde están las variables bcakup_dir y decrypt_dir que se encuentran al principio del código (para indicar la ruta de la carpeta que queremos restaurar y el destino al que se creará una copia desencriptada, respectivamente)
 
   Ejecutar el script de desencriptado:
       Abre el símbolo del sistema.
